@@ -9,3 +9,7 @@ Dwa kontrolery - class/controller/employee.php oraz class/controller/base.php (p
 Jeden plik messages - messages/msg.php - to tablica z wszystkimi możliwymi błędami.
 bootstrat.php - konfiguracja ustawień podstawowych (strefa czasowa, informacje lokalne, język strony, katalog strony, obsługiwane moduły (tutaj tylko database) oraz routing (controller - employee, action - index)
 config/database.php - do zmiany parametry połączenia domyślnego
+---------------
+Podsumowanie::
+Przy usuwaniu - jest drobny problem z przekierunkowaniem, ale mimo to działa poprawnie (po ręcznym przejściu na stronę główną lub po przycisku wstecz), walidacja zrobiona poprawnie, jakiś szablon strony.
+
