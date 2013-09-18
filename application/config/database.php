@@ -18,10 +18,10 @@ return array
 			 *
 			 * Ports and sockets may be appended to the hostname.
 			 */
-			'hostname'   => 'sql5.boo.pl',
-			'database'   => 'cohen',
-			'username'   => 'cohen',
-			'password'   => 'Hydra321',
+			'hostname'   => 'localhost',
+			'database'   => 'DBname',
+			'username'   => 'user',
+			'password'   => 'pass',
 			'persistent' => FALSE,
 		),
 		'table_prefix' => '',
