@@ -5,11 +5,12 @@ CREATE TABLE `employee` (
   `stanowisko` char(40) CHARACTER SET utf8 COLLATE utf8_bin NOT NULL,
   `pesel` bigint(12) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=7 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1;
 
 -- 
 -- Zrzut danych tabeli `employee`
 -- 
 
-INSERT INTO `employee` VALUES (4, 0x4a616e, 0x4b6f77616c736b69, 0x6dc5826f64737a792070726f6772616d69737461, 89012708878);
-INSERT INTO `employee` VALUES (5, 0x4b616d696c, 0x536f636861, 0x73746172737a792070726f6772616d69737461, 87534765467);
+INSERT INTO `employee` (`id`, `imie`, `nazwisko`, `stanowisko`, `pesel`) VALUES
+(1, 'Jan', 'Kowalski', 'młodszy programista', 89012708878),
+(2, 'Kamil', 'Socha', 'starszy programista', 87534765467);
