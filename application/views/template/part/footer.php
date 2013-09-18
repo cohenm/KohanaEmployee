@@ -1,0 +1,1 @@
+<p class="copy">Copyright <?php echo date('Y'); ?> <a href="mailto:slawek.rebis@gmail.com">Sławomir Rębiś</a></p>
