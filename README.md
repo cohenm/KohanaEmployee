@@ -14,3 +14,14 @@ Podsumowanie
 ---------------
 Przy usuwaniu - jest drobny problem z przekierunkowaniem, ale mimo to działa poprawnie (po ręcznym przejściu na stronę główną lub po przycisku wstecz), walidacja zrobiona poprawnie, jakiś szablon strony.
 
+Zawiera tylko pliki zmieniane/dodawane
+---------------
+Z celu uruchomienia potrzetny jest kompletny pakiet Kohana v.3.3.1. Folderami wykluczonymi w GitHub są m.in.
+
+application/cache/*
+application/logs/*
+application/i18n/*
+modules/*
+system/*
+.htaccess
+index.php
