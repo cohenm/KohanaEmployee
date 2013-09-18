@@ -16,7 +16,10 @@ Przy usuwaniu - jest drobny problem z przekierunkowaniem, ale mimo to działa po
 
 Zawiera tylko pliki zmieniane/dodawane
 ---------------
-Z celu uruchomienia potrzetny jest kompletny pakiet Kohana v.3.3.1 - https://github.com/kohana/kohana/releases/download/v3.3.1/kohana-v3.3.1.zip. Folderami wykluczonymi w GitHub są m.in.
+Z celu uruchomienia potrzetny jest kompletny pakiet Kohana v.3.3.1 - https://github.com/kohana/kohana/releases/download/v3.3.1/kohana-v3.3.1.zip. 
+
+Folderami wykluczonymi w GitHub są m.in.
+---
 
 application/cache/*
 
