@@ -19,9 +19,15 @@ Zawiera tylko pliki zmieniane/dodawane
 Z celu uruchomienia potrzetny jest kompletny pakiet Kohana v.3.3.1 - https://github.com/kohana/kohana/releases/download/v3.3.1/kohana-v3.3.1.zip. Folderami wykluczonymi w GitHub są m.in.
 
 application/cache/*
+
 application/logs/*
+
 application/i18n/*
+
 modules/*
+
 system/*
+
 .htaccess
+
 index.php
