@@ -11,11 +11,11 @@ bootstrat.php - konfiguracja ustawień podstawowych (strefa czasowa, informacje 
 config/database.php - do zmiany parametry połączenia domyślnego
 
 Podsumowanie
----------------
+---
 Przy usuwaniu - jest drobny problem z przekierunkowaniem, ale mimo to działa poprawnie (po ręcznym przejściu na stronę główną lub po przycisku wstecz), walidacja zrobiona poprawnie, jakiś szablon strony.
 
 Zawiera tylko pliki zmieniane/dodawane
----------------
+---
 Z celu uruchomienia potrzetny jest kompletny pakiet Kohana v.3.3.1 - https://github.com/kohana/kohana/releases/download/v3.3.1/kohana-v3.3.1.zip. 
 
 Folderami wykluczonymi w GitHub są m.in.
